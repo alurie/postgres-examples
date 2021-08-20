@@ -10,6 +10,14 @@
    ```
    postgres=# create extension myext;
    CREATE EXTENSION
+   
+   postgres=# \dx
+                    List of installed extensions
+     Name   | Version |   Schema   |         Description
+   ---------+---------+------------+------------------------------
+    myext   | 1.0     | public     | My extension
+    plpgsql | 1.0     | pg_catalog | PL/pgSQL procedural language
+   (2 rows)
    ```
 
 1. Run
